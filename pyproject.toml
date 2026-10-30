@@ -1,0 +1,15 @@
+[project]
+name = "nilm-loss-benchmark"
+version = "0.1.0"
+description = "Công cụ xử lý tài liệu và thí nghiệm cho nghiên cứu NILM."
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "pyarrow>=26.0.0",
+    "pymupdf>=1.26,<2",
+]
+
+[tool.uv]
+package = false

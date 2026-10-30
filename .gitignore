@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Dữ liệu thô/tải về: không đưa vào git
+nilm-code/data/
+
+# Toàn văn bài báo (PDF, bản trích/dịch): chỉ giữ local, không phân phối lại trên repo public
+nilm-document/papers/*.pdf
+nilm-document/papers/md/
+
+# Trạng thái giao diện Obsidian
+.obsidian/workspace*.json
+**/.obsidian/workspace*.json
+**/.trash/
