@@ -1,0 +1,10 @@
+285dd3d7f68f0508e70362972f6adb624a593475
+--- git status --porcelain (nilm-code, gitignore, pyproject, uv.lock)
+ M nilm-code/README.md
+?? .gitignore
+?? nilm-code/AGENTS.md
+?? nilm-code/audit/
+?? nilm-code/runs/
+?? nilm-code/templates/
+?? pyproject.toml
+?? uv.lock

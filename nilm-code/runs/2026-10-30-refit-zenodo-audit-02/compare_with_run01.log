@@ -1,0 +1,30 @@
+# cmp từng tệp: runs/2026-10-30-refit-zenodo-audit-01/outputs vs outputs/experiments/e000_refit_data_audit/2026-10-30-refit-zenodo-audit-02
+DIFF data_manifest.json
+2c2
+<   "generated_utc": "2026-10-30T07:17:54.876728+00:00",
+---
+>   "generated_utc": "2026-10-30T07:55:00.903673+00:00",
+SAME definitions.json
+SAME excess_threshold_sensitivity.csv
+SAME hourly_excess.csv
+SAME monthly_excess.csv
+SAME per_channel.csv
+SAME per_house_summary.csv
+SAME sampling_interval_bins.csv
+DIFF summary_table.md
+1c1
+< <!-- Sinh tự động bởi refit_audit.py; không sửa tay. -->
+---
+> <!-- Sinh tự động bởi src/experiments/e000_refit_data_audit/analyze.py; không sửa tay. -->
+# tệp chỉ có ở run 02:
+(không có)
+# sha256 đầu ra run 02
+7fc6a8baa39a8783f4751ec22a4821cab2151b30f06d1a6186e70011a8f798a6 *data_manifest.json
+3b3b7ea132cf3dcdd27f3c9e8ef04c955f0a7838c5660681a3ed5cac2ff5eb6a *definitions.json
+eb20f3c3d0bdf849bd11c6d96d2ef0098cb018265d1c625f7617ec53c4c34291 *excess_threshold_sensitivity.csv
+27b7e83f77bd087c668c2e03a0a410b139e597bc520280420dd8dee4ebd4da35 *hourly_excess.csv
+c2bac35a76a837f1c6e12e74b568d67038c494efc4de43943c76122fb28b6dc9 *monthly_excess.csv
+f7d8138b469b49e105ba1f95c1f2c5e0dd7b1c697f3d7362b51d093863efe97d *per_channel.csv
+54f0296fe8c038f4ef69b06b35c526e8f1fb2ca02b83367405cb3858b5d27354 *per_house_summary.csv
+27da96305c475d45b9ebe120d93834cc177d30b4275a38ba74855a51cef35b2a *sampling_interval_bins.csv
+625956c2987db498ef080da7edf7c70323210c819c3de6b6fd6ca0c908a7db47 *summary_table.md

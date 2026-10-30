@@ -1,0 +1,8 @@
+SAME definitions.json
+SAME excess_threshold_sensitivity.csv
+SAME hourly_excess.csv
+SAME monthly_excess.csv
+SAME per_channel.csv
+SAME per_house_summary.csv
+SAME sampling_interval_bins.csv
+SAME summary_table.md

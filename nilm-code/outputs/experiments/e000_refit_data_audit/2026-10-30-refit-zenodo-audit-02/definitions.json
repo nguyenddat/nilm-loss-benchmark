@@ -1,0 +1,32 @@
+{
+  "status": "exploratory",
+  "sample": "một dòng CSV như được công bố; không lấy mẫu lại/căn chỉnh",
+  "dt": "diff(Unix) theo thứ tự dòng, giây",
+  "excess": "sum(Appliance1..9) - Aggregate, W; min_count=9",
+  "excess_gt0": "excess > 0 (chặt), khớp IssuesHighlight.m (David-Murray/REFIT)",
+  "abs_thresholds_w": [
+    0,
+    10,
+    50,
+    100,
+    500
+  ],
+  "rel_thresholds_of_aggregate": [
+    0.06,
+    0.1,
+    0.25
+  ],
+  "gap_thresholds_s": [
+    120,
+    3600,
+    21600
+  ],
+  "solar_affected_murray2017": [
+    3,
+    11,
+    21
+  ],
+  "month_basis": "Unix diễn giải là UTC",
+  "hour_basis": "giờ của cột Time như trong tệp; múi giờ của cột Time chưa xác minh (xem time_minus_unix_offset_hours_counts)",
+  "note": "Ngưỡng chỉ để thăm dò độ nhạy; không phải dung sai C3 đã chốt."
+}
