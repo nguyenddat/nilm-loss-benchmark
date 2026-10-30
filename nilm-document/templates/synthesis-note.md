@@ -4,38 +4,46 @@ status: draft
 tags: [nilm, synthesis]
 ---
 
-# <Chủ đề tổng hợp>
+# <Câu hỏi tổng hợp có phạm vi hẹp>
+
+Lưu ghi chú kiến thức tổng hợp này trong `notes/`. Thư mục `synthesis/` chỉ dành cho kế hoạch nghiên cứu và quyết định công việc.
 
 ## Câu hỏi và phạm vi
 
-<RQ, tiêu chí chọn/loại nguồn và phạm vi tìm kiếm.>
+<Một câu hỏi liên nguồn; liên kết đến các note hạt nhân liên quan trong `notes/`. Trang này không thay thế note khái niệm.>
 
 ## Nguồn đã đọc
 
-<Liên kết ghi chú paper; phiên bản và trạng thái kiểm tra.>
+<Tên tác giả/năm hoặc khóa BibTeX; đường dẫn nguồn dạng văn bản; phiên bản và trạng thái kiểm tra. Không tạo wikilink tới thư mục nguồn.>
 
 ## Bằng chứng đối chiếu
 
-| Nhận định | Paper / ghi chú | Bằng chứng + locator nguồn gốc | Điều kiện / protocol | Mức chắc chắn |
+| Nhận định hẹp | Note nguồn | Bằng chứng + vị trí trong nguồn gốc | Điều kiện / quy trình đánh giá | Mức chắc chắn |
 | --- | --- | --- | --- | --- |
+
+> [!example] Cách trích dẫn trong bản tổng hợp
+> **Điểm chung:** <một câu được cả nguồn A và B hỗ trợ> ([@khoa-a], mục X, PDF tr. Y; [@khoa-b], Bảng Z, PDF tr. W).
+>
+> **Bổ sung riêng:** <chi tiết chỉ nguồn B báo cáo> ([@khoa-b], mục Q, PDF tr. R).
 
 ## Khả năng so sánh
 
-<Metric, split, dataset, preprocessing, mô hình và ngân sách có tương thích không? Không xếp hạng trực tiếp nếu khác protocol.>
+<Chỉ ghi các khác biệt cần để trả lời câu hỏi tổng hợp. Không xếp hạng trực tiếp nếu protocol khác.>
 
-## Đồng thuận, khác biệt và giới hạn
+## Điểm thống nhất, khác biệt và giới hạn
 
-<Tách trích xuất từ nguồn khỏi diễn giải của người đọc.>
+<Gom các phát biểu thật sự chung và dẫn tất cả nguồn hỗ trợ ngay sau câu đó. Tách ý bổ sung/khác biệt của từng nguồn thành câu hoặc đoạn riêng với citation riêng. Không gộp các nguồn chỉ vì cùng chủ đề.>
 
 ## Giả thuyết và thí nghiệm đề xuất
 
-**Suy luận/đề xuất:** <biến kiểm soát, yếu tố thay đổi, metric, tiêu chí kiểm tra; chưa phải kết quả.>
+**Suy luận / đề xuất:** <biến kiểm soát, yếu tố thay đổi, metric, tiêu chí kiểm tra; chưa phải kết quả.>
 
-## Claim có thể dùng và điều kiện
+## Nhận định có thể dùng và điều kiện
 
-<Claim nào đủ bằng chứng, claim nào cần đọc thêm hoặc thực nghiệm? Liên kết nguồn.>
+<Nhận định nào đủ bằng chứng, nhận định nào cần đọc thêm hoặc thực nghiệm? Liên kết nguồn.>
 
 ## Việc tiếp theo
 
-- [ ] Kiểm tra locator và tính tương thích của protocol.
-- [ ] Cập nhật bảng literature review và câu hỏi nghiên cứu.
+- [ ] Kiểm tra vị trí trích dẫn và mức tương thích của quy trình đánh giá.
+- [ ] Cập nhật ma trận tài liệu và câu hỏi nghiên cứu (kế hoạch: `synthesis/research-questions`).
+- [ ] Tách các định nghĩa/đối tượng ổn định trong ghi chú ở `notes/` nếu chúng cần được wikilink ở nhiều nơi.

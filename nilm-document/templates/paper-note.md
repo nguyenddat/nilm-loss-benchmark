@@ -12,63 +12,63 @@ read_date:
 tags: [nilm, literature]
 ---
 
-# <Tiêu đề paper>
+# <Tiêu đề bài báo>
 
-## 1. Metadata và nguồn
+## 1. Thông tin thư mục và nguồn
 
-- Citation đầy đủ: <chỉ ghi thông tin đã xác minh>
-- Toàn văn / phiên bản / supplementary: <nguồn>
-- File nguồn cục bộ nếu có: <đường dẫn>
+- Trích dẫn đầy đủ: <chỉ ghi thông tin đã xác minh>
+- Toàn văn / phiên bản / tài liệu bổ sung: <nguồn>
+- Tệp nguồn cục bộ nếu có: <đường dẫn>
 - Mục tiêu đọc / RQ liên quan: <nội dung>
 - Chất lượng trích xuất / OCR / giới hạn truy cập: <nội dung>
 
 ## 2. Tóm tắt điều hành
 
-<5–8 ý sau khi đọc; gắn locator cho các nhận định quan trọng.>
+<5–8 ý sau khi đọc; ghi vị trí trích dẫn cho các nhận định quan trọng.>
 
 ## 3. Bài toán, động lực và đóng góp
 
-<Nội dung + locator.>
+<Nội dung + vị trí trích dẫn.>
 
 ## 4. Phương pháp và loss
 
 - Kiến trúc / đầu vào / đầu ra: <nội dung>
-- Công thức loss, ký hiệu, reduction, trọng số và đơn vị: <nội dung>
-- Cách xử lý mất cân bằng, trạng thái on/off và chuẩn hóa: <nội dung>
-- Locator: <section / trang / công thức>
+- Công thức loss, ký hiệu, cách tổng hợp thành một giá trị (reduction), trọng số và đơn vị: <nội dung>
+- Cách xử lý mất cân bằng, trạng thái bật/tắt và chuẩn hóa: <nội dung>
+- Vị trí trích dẫn: <mục / trang / công thức>
 
-## 5. Dataset và thiết lập thực nghiệm
+## 5. Bộ dữ liệu và thiết lập thực nghiệm
 
-| Thành phần | Thông tin từ nguồn | Locator |
+| Thành phần | Thông tin trong nguồn | Vị trí trích dẫn |
 | --- | --- | --- |
-| Dataset / phiên bản / thiết bị / nhà | <điền> | <điền> |
-| Sampling rate / preprocessing / window | <điền> | <điền> |
-| Train / validation / test và phòng tránh leakage | <điền> | <điền> |
-| Seed / số lần chạy | <điền> | <điền> |
-| Hyperparameter / tuning / ngân sách | <điền> | <điền> |
+| Bộ dữ liệu / phiên bản / thiết bị / hộ | <điền> | <điền> |
+| Tần suất lấy mẫu / tiền xử lý / cửa sổ | <điền> | <điền> |
+| Tập huấn luyện / xác thực / kiểm tra và cách tránh rò rỉ dữ liệu | <điền> | <điền> |
+| Hạt giống ngẫu nhiên / số lần chạy | <điền> | <điền> |
+| Siêu tham số / tìm kiếm / ngân sách | <điền> | <điền> |
 | Phần cứng / thời gian chạy | <điền> | <điền> |
 
-## 6. Baseline, metric và kết quả
+## 6. Mô hình đối chứng, thước đo và kết quả
 
-| Setting / dataset / split | Baseline / loss | Metric / định nghĩa / đơn vị / chiều tốt hơn | Kết quả / độ biến thiên | Locator |
+| Thiết lập / bộ dữ liệu / cách chia | Mô hình đối chứng / loss | Thước đo / định nghĩa / đơn vị / chiều tốt hơn | Kết quả / độ biến thiên | Vị trí nguồn |
 | --- | --- | --- | --- | --- |
 
 <Ghi điều kiện so sánh, ablation và ý nghĩa của từng con số.>
 
 ## 7. Bảng bằng chứng
 
-| Nhận định | Bằng chứng / điều kiện | Locator | Mức chắc chắn |
+| Nhận định | Bằng chứng / điều kiện | Vị trí nguồn | Mức chắc chắn |
 | --- | --- | --- | --- |
 
 ## 8. Phân biệt kết luận
 
 ### Tác giả tuyên bố gì?
 
-<Nội dung + locator.>
+<Nội dung + vị trí trích dẫn.>
 
 ### Thí nghiệm thực sự chứng minh gì?
 
-<Nội dung, phạm vi và điều kiện + locator.>
+<Nội dung, phạm vi và điều kiện + vị trí nguồn.>
 
 ### Bài báo chưa giải quyết gì?
 
@@ -76,14 +76,14 @@ tags: [nilm, literature]
 
 ## 9. Hạn chế và khả năng tái lập
 
-- Code / data / license / phiên bản hoặc commit: <nguồn đã kiểm tra>
-- Lệnh tái lập được tác giả cung cấp: <lệnh hoặc không nêu>
-- Chi tiết còn thiếu / threats to validity: <nội dung>
+- Mã nguồn / dữ liệu / giấy phép / phiên bản hoặc mã commit: <nguồn đã kiểm tra>
+- Lệnh tái lập do tác giả cung cấp: <lệnh hoặc không nêu>
+- Chi tiết còn thiếu / nguy cơ ảnh hưởng tính hợp lệ: <nội dung>
 - Đã tự chạy lại chưa? <chưa / có, liên kết kết quả và cấu hình>
 
-## 10. Liên hệ với NILM loss benchmark
+## 10. Liên hệ với bộ đánh giá so sánh hàm mất mát NILM
 
-**Suy luận/đề xuất của người đọc:**
+**Suy luận / đề xuất của người đọc:**
 
 - Có thể dùng trực tiếp: <nội dung>
 - Cần điều chỉnh: <nội dung>
@@ -95,4 +95,4 @@ tags: [nilm, literature]
 
 ## 12. Trích dẫn
 
-<Citation đầy đủ hoặc BibTeX đã đối chiếu nguồn.>
+<Trích dẫn đầy đủ hoặc BibTeX đã đối chiếu với nguồn.>
